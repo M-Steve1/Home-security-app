@@ -59,7 +59,7 @@ public class ImagePanel extends JPanel implements StatusListener {
             securityService.processImage(selectedImage);
         });
 
-        add(cameraPanel, "span 3 wrap");
+        add(cameraPanel, "span 3, wrap");
         add(imageDisplayLabel, "span 3, wrap");
         add(addImageButton);
         add(scanImageButton);
