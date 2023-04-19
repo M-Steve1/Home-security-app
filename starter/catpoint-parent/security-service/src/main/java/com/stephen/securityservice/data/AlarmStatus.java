@@ -4,7 +4,7 @@ import java.awt.*;
 
 public enum AlarmStatus {
     NO_ALARM ("Cool and Good", new Color(120, 200, 30)),
-    PENDING ("I'm in Danger", new Color(200, 150, 20)),
+    PENDING_ALARM ("I'm in Danger", new Color(200, 150, 20)),
     ALARM ("Help!!!!!", new Color(250, 80, 50));
 
     private final String description;

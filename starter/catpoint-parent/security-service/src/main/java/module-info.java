@@ -3,4 +3,5 @@ module com.stephen.securityservice {
     requires guava.r05;
     requires java.prefs;
     requires com.google.gson;
+    requires com.stephen.imageservice;
 }

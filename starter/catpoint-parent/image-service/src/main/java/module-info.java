@@ -1,4 +1,5 @@
 module com.stephen.imageservice {
+    exports com.stephen.imageservice;
     requires java.desktop;
     requires org.slf4j;
     requires software.amazon.awssdk.services.rekognition;
