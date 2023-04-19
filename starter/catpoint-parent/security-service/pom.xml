@@ -7,7 +7,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.stephen.securityservice</groupId>
+<!--    <groupId>com.stephen.securityservice</groupId>-->
     <artifactId>security-service</artifactId>
     <packaging>jar</packaging>
 
@@ -23,6 +23,11 @@
             <groupId>com.google.guava</groupId>
             <artifactId>guava</artifactId>
             <version>r05</version>
+        </dependency>
+        <dependency>
+            <groupId>com.miglayout</groupId>
+            <artifactId>miglayout</artifactId>
+            <version>3.5.5</version>
         </dependency>
         <dependency>
             <groupId>com.google.code.gson</groupId>
