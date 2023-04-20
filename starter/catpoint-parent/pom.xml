@@ -12,6 +12,7 @@
         <module>security-service</module>
     </modules>
     <packaging>pom</packaging>
+    <name>catpoint-parent</name>
 
     <properties>
         <maven.compiler.source>18</maven.compiler.source>

@@ -7,7 +7,6 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-<!--    <groupId>com.stephen.securityservice</groupId>-->
     <artifactId>security-service</artifactId>
     <packaging>jar</packaging>
 
@@ -35,7 +34,7 @@
             <version>2.10.1</version>
         </dependency>
         <dependency>
-            <groupId>com.stephen.imageservice</groupId>
+            <groupId>com.stephen.catpoint</groupId>
             <artifactId>image-service</artifactId>
             <version>1.0-SNAPSHOT</version>
             <scope>compile</scope>
