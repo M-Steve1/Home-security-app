@@ -50,8 +50,8 @@ public class SensorPanel extends JPanel implements StatusListener {
         p.setLayout(new MigLayout());
         p.add(newSenorName);
         p.add(newSensorNameField, "width 50:100:200");
-        p.add(newSensorType, "wrap");
-        p.add(dropdown);
+        p.add(newSensorType);
+        p.add(dropdown, "wrap");
         p.add(addNewSensorButton, "span 3");
         return  p;
     }
