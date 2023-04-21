@@ -14,6 +14,10 @@ import javax.swing.*;
  */
 public class CatpointGui extends JFrame {
     private SecurityRepository securityRepository = new PretendDatabaseSecurityRepository();
+    /**
+     * Replace FakeImageService with AwsImageService if you have your profile and config properties
+     * set up.
+     */
     private ImageService imageService = new FakeImageService();
     private SecurityService securityService = new SecurityService(securityRepository, imageService);
     private DisplayPanel displayPanel = new DisplayPanel(securityService);
